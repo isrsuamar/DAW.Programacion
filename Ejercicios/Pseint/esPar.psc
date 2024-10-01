@@ -2,13 +2,13 @@ Algoritmo comprobarNumeroEsPar
 	
 	Definir numerito Como Entero
 	
-	Escribir "Introduzca un número:"
+	Escribir "Introduzca un nÃºmero:"
 	Leer numerito
 	
-	Si numerito < 0 Entonces
-		Escribir "El número " numerito " es negativo"
+	Si numerito % 2 = 0 Entonces
+		Escribir "El nÃºmero " numerito " es par"
 	SiNo
-		Escribir "El número " numerito " es positivo"
+		Escribir "El nÃºmero " numerito " es impar"
 	FinSi
 	
 	
